@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="./bookinIssued.css">
-    <title>Add Booking</title>
+    <link rel="stylesheet" href="bookingEdit .css">
+    <title>Edit Booking</title>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
                     </div>
                     <div class="dashboard">
                         <img src="images/booking.png" alt="">
-                        <a href="./booking.html">Bookings</a>
+                        <a href="#">Bookings</a>
                     </div>
                     <div class="dashboard">
                         <img src="images/transcition.png" alt="">
@@ -94,13 +94,13 @@
 
     <section>
         <div class="navbar">
-            <h1>Booking > Issued</h1>
+            <h1>Booking > Edit</h1>
             <img src="images/billicon.png" alt="">
         </div>
         <div class="packageSetting">
             <div class="add_airlines">
                 <div class="add-header">
-                    <h1>Add New Booking Here</h1>
+                    <h1>Edit Your Booking Here</h1>
                 </div>
                 <div class="input-setting">
                     <div class="input1">
@@ -143,43 +143,33 @@
 
 
                     </div>
-                    <div class="input1">
-                        <div class="subInput">
-                            <label for="text">Basic fare<span>*</span></label><br>
-                            <input type="text" placeholder="RS 750000 ">
-                        </div>
-                        <div class="subInput">
-                            <label for="text">Tax Amount<span>*</span></label><br>
-                            <input type="text" placeholder="RS 180000">
 
-                        </div>
-
-
-                    </div>
                     <div class="input1">
                         <div class="subInput">
                             <label for="text">Departure Date and Time<span>*</span></label><br>
-                            <input type="datetime-local" >
+                            <input type="datetime-local">
 
                         </div>
                         <div class="subInput">
                             <label for="text">Remarks<span>*</span></label><br>
                             <input type="text" placeholder="Remarks ">
                         </div>
-                       
+
 
 
                     </div>
 
-<!-- 
+                    <!-- 
                     <div class="input2">
                         <label for="text">Contact Person Name<span>*</span></label><br>
                         <input type="text" placeholder="Contact Person Name">
                     </div> -->
-                    <div class="button-footer">
-                        <button><a href="./bookingEdit .html">
-                                ADD
-                            </a></button>
+                    <div style="display: flex;gap: 100px;" class="button-footer">
+                        <button style="display: flex;align-items: center;justify-content: center;font-size: 25px;"><i
+                                class='bx bx-left-arrow-alt'></i><span><a href="./bookingIssued.html"> BACK </a></span></button>
+                        <button style="font-size: 25px;"  id="update"><a href="./booking-filter.html">UPDATE</a></button>
+
+
                     </div>
                 </div>
             </div>
